@@ -1,0 +1,30 @@
+
+body {
+    background-color: red;
+    height: 1000px;
+}
+
+img {
+    height: 300px;
+}
+
+.container {
+    margin-top: 20px;
+    border: 3px black solid;
+    width: 500px;
+
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgb(255, 255, 74);
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+}
+
+.logo-section {
+    text-align: center;
+}
