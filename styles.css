@@ -2,6 +2,7 @@
 body {
     background-color: red;
     height: 1000px;
+
 }
 
 img {
@@ -27,4 +28,31 @@ img {
 
 .logo-section {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-btn {
+    height: 80px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 74);
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.barney {
+    height: 500px;
+    margin-top: 30px;
 }

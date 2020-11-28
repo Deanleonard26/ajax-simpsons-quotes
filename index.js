@@ -18,3 +18,8 @@ function fetchSimpson() {
   }
   
   fetchSimpson();
+
+  const btn = document.getElementById('btn')
+  btn.addEventListener('click', function(){
+    fetchSimpson()
+  })
